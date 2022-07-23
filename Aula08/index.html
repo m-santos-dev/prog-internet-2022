@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .video-tam {
+      width: 50%;
+    }
+    .video-alt {
+      height: 400px;
+    }
+  </style>
+
+  <title>Demonstração de uso mídias</title>
+</head>
+<body>
+  <header>
+    <h3>Este html iremos ver exemplos de mídias</h3>
+  </header>
+  <!-- Inicio da seção de vídeos -->
+  <section id="videos">
+    <h2>Vídeos</h2>
+    <video controls class="video-tam">
+      <source src="assets/video/video01.mp4" type="video/mp4">
+    </video>
+    <video controls class="video-alt">
+      <source src="assets/video/video02.mp4" type="video/mp4">
+    </video>
+  </section>
+  <!-- Inicio da seção de audios -->
+  <section id="audios">
+    <h2>Audios</h2>
+    <p>Sons de floresta</p>
+    <audio controls>
+      <source src="assets/audio/sons_floresta.ogg" type="audio/mp3">
+    </audio>
+
+    <p>Sons de ondas do mar</p>
+    <audio controls>
+      <source src="assets/audio/sons_ondas_mar.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  <!-- Seção de IFrame-->
+  <section id="iframe">
+    <h2>Aqui veremos um iframe.</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/C4qI8MKEF3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+</body>
+</html>

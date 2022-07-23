@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Tabelas</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+    <section id="tabelas">
+        <div>
+            <table><!--Criando uma tabela-->
+                <thead><!--Iniciando um cabecalho de uma tabela-->
+                    <tr><!--Iniciando uma linha de uma tabela-->
+                        <th>Coluna 01</th><!--iniciando uma coluna de titulo-->
+                        <th>Coluna 02</th><!--iniciando uma coluna de titulo-->
+                        <th>Coluna 03</th><!--iniciando uma coluna de titulo-->
+                        <th>Coluna 04</th><!--iniciando uma coluna de titulo-->
+                        <th>Coluna 05</th><!--iniciando uma coluna de titulo-->
+                    </tr>
+                </thead>
+                <tbody><!--Iniciando o corpo da tabela-->
+                    <tr><!--Iniciando uma linha da tabela-->
+                        <td>Dado 01</td><!--Iniciando uma coluna-->
+                        <td>Dado 02</td><!--Iniciando uma coluna-->
+                        <td>Dado 03</td><!--Iniciando uma coluna-->
+                        <td>Dado 04</td><!--Iniciando uma coluna-->
+                        <td>Dado 05</td><!--Iniciando uma coluna-->
+                    </tr>
+                    <tr><!--Iniciando uma linha da tabela-->
+                        <td>Dado 11</td><!--Iniciando uma coluna-->
+                        <td>Dado 12</td><!--Iniciando uma coluna-->
+                        <td>Dado 13</td><!--Iniciando uma coluna-->
+                        <td>Dado 14</td><!--Iniciando uma coluna-->
+                        <td>Dado 15</td><!--Iniciando uma coluna-->
+                    </tr>
+                </tbody>
+                <tfoot><!--Iniciando o footer da tabela (opicional)-->
+                    <tr><!--Iniciando uma linha-->
+                        <td colspan="4">Totais</td><!--Mesclando 4 células-->
+                        <td>0.00</td><!--iniciando uma coluna-->
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <!--Criando uma tabela usando -->
+        <div>
+            <div class="tabela">
+                <div class="tabela-header">
+                    <div class="linha">
+                        <div class="col-titulo">Coluna 01</div>
+                        <div class="col-titulo">Coluna 02</div>
+                        <div class="col-titulo">Coluna 03</div>
+                        <div class="col-titulo">Coluna 04</div>
+                        <div class="col-titulo">Coluna 05</div>
+                    </div>
+                </div>
+                <div class="tabela-body">
+                    <div class="linha">
+                        <div class="coluna">Dado 01</div>
+                        <div class="coluna">Dado 02</div>
+                        <div class="coluna">Dado 03</div>
+                        <div class="coluna">Dado 04</div>
+                        <div class="coluna">Dado 05</div>
+                    </div>
+                    <div class="linha">
+                        <div class="coluna">Dado 06</div>
+                        <div class="coluna">Dado 07</div>
+                        <div class="coluna">Dado 08</div>
+                        <div class="coluna">Dado 09</div>
+                        <div class="coluna">Dado 10</div>
+                    </div>
+                </div>
+                <div class="tabela-footer">
+                    <div class="linha">
+                        <div class="coluna md-80">Totais</div>
+                        <div class="coluna md-20">0.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
