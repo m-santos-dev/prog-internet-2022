@@ -5,6 +5,7 @@
     border: 1px solid black;
     margin: 0 auto;
     overflow: hidden;
+    background: linear-gradient(blue, white);
 }
 #pipe {
     position: absolute;
@@ -18,6 +19,16 @@
     bottom: 0;
     height: 120px;
     animation: mario-jump 0.9s infinite linear;
+}
+#nuvem{
+    position: absolute;
+    top: 0;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 50px;
+    right: 0;
+    animation: nuvem-anime 5s infinite linear;
+
 }
 
 @keyframes pipe-anime {
@@ -41,5 +52,12 @@
     100%{
         bottom: 0;
     }
-
+}
+@keyframes nuvem-anime {
+    from {
+        right: -380px;
+    }
+    to {
+        right: 100%;
+    }
 }
