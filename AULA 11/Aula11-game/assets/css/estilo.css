@@ -12,13 +12,15 @@
     width: 80px;
     bottom: 0;
     right: 0;
-    animation: pipe-anime 2s infinite linear;   
+     animation: pipe-anime 2s infinite linear; 
 }
 #mario{
     position: absolute;
     bottom: 0;
     height: 120px;
-    animation: mario-jump 0.9s infinite linear;
+}
+.jump{
+    animation: mario-jump 1s;
 }
 #nuvem{
     position: absolute;
