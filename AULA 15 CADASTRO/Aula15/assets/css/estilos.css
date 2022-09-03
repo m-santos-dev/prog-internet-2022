@@ -1,0 +1,12 @@
+* { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header{
+    text-align: left;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 2px;
+}

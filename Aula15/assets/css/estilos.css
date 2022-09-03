@@ -1,1 +1,79 @@
 * { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header{
+    background-color: rgb(101, 101, 219);
+    text-align: left;
+    display: flex;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    margin-bottom: 5px;
+}
+header h2{
+    margin-left: 10px;
+}
+.clCampos{
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    align-items: center;
+}
+.clCampos input:not([type=radio]){
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid silver;
+}
+.cjInput{
+    display: flex;
+}
+.btnInput{
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+.cjInput input{
+    border-radius: 0 5px 5px 0 !important; 
+    /* !important serve para mostrar ao CSS que é importante executar */
+}
+.cl3Colunas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.clObrigatorio{
+    color: red;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(13, 13, 117, 0.342);
+}
+.clCampos input[type=submit]{
+    background-color: green;
+    color: white;
+    height: 30px;
+}
+.clCampos input[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.63);
+}
+
+.clCampos input[type=reset]{
+    background-color: red;
+    color: white;
+    height: 30px;
+}
+.clCampos input[type=reset]:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.288)
+}
+.msgErros{
+    color: brown;
+    font-style: italic;
+}
+
